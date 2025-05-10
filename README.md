@@ -1,2 +1,6 @@
 # Wood_Degradation_Color
 Analysis of color change from surface to interior due to wood deterioration
+Since discoloration due to wood deterioration seems to be greatly influenced by extracted components, it would be difficult to predict deterioration based on color alone.
+It would be nice if changes in lignin, cellulose, and hemicellulose were directly reflected in the color, but reality is more complicated.
+This is my first time writing a README, but it's clear that this isn't what I should be writing.
+I hope this repository has been useful to someone.
