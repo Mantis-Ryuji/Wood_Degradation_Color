@@ -7,6 +7,12 @@ I hope this repository has been useful to someone.
 
 - I packed too much content into 03_Results.ipynb, which is causing it to load slowly. Lesson learned...
 
+## License
+
+This project is licensed under the MIT License.  
+See the [LICENSE](LICENSE) file for more details.
+
+
 
 
 
