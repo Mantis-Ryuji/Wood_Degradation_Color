@@ -35,13 +35,15 @@ The sample handled here was used at the base of the column wood, at the position
 表面から内部にかけて劣化による変色の**グラデーション**が目視で確認されたため、イメージング分光装置（Imspector V8E、JFEテクノリサーチ）を用いて精密に色を測定しました。<br>
 試験体のR方向がステージの移動方向と一致するように設置し、**分解能0.06mm/pixel**で、色データを**Lab表色系**(＊)の色彩値として取得しました。<br>
 Since **gradation** of discoloration due to deterioration was visually observed from the surface to the interior, the color was precisely measured using an imaging spectrometer (Imspector V8E, JFE Techno Research). <br> 
-The specimen was set up so that the R direction of the specimen was aligned with the movement direction of the stage, and color data was acquired as color values in the **Lab color space**(*) with a **resolution of 0.06 mm/pixel**. <br>
+The specimen was set up so that the R direction of the specimen was aligned with the movement direction of the stage, and color data was acquired as color values in the **Lab color space**(*) with a **resolution of 0.06 mm/pixel**. <br><br>
 <img src='Image\Method.png'>
-- (＊)Lab表色系 Lab Color Space
+- (＊)**Lab表色系** Lab Color Space
 <img src='Image\Color.png' width='300'>
 https://www.konicaminolta.jp/instruments/knowledge/color/section2/2-02/ <br>
 Lab表色系は、三次元空間で任意の色を表す表色系です。<br>
 The Lab color space is a color system that represents any color in three-dimensional space.<br><br>
+
+
 
 
 
