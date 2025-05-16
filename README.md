@@ -49,7 +49,7 @@ L_star をグレースケールで、a_star, b_star をそれぞれ赤と青の�
 以下の図から、表面からの劣化の影響により特に明度 L_star が減少していることがわかる。<br>
 L_star is shown in grayscale, and a_star and b_star are shown in shades of red and blue, respectively. <br> 
 The following figure shows that the brightness L_star is particularly reduced due to the effects of degradation from the surface.<br><br>
-<><><>
+<img src='Image\L_star.png' width='300'><img src='Image\a_star.png' width='300'><img src='Image\b_star.png' width='300'>
 
 ## License
 This project is licensed under the MIT License.  
