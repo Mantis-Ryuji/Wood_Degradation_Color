@@ -85,9 +85,9 @@ In particular, **Class 0** seems to be strongly affected by surface degradation.
 #### 各クラスのデータ分布を密度曲線を用いて可視化 <br> Visualize data distribution for each class using Kernel Density Estimate <br>
 <img src='Image/L_star_density.png' width='250'><img src='Image/a_star_density.png' width='250'><img src='Image/b_star_density.png' width='250'>
 - $L_{star} [standardized]$ の密度曲線を個別にみてみる <br> Let's look at the KDE for L_star [standardized] individually
-<img src='Image/L_star_density_separate.png'><br><br>
+<img src='Image/L_star_density_separate.png' width='600'><br><br>
 - $L_{star}[standardized]$ の一部のクラス（ **Class 0** と **Class 1** ）に複数のピークが見られるため、KMeansを用いてクラスタリング <br> Since multiple peaks are seen in some classes, I focused on this and divided into two classes by KMeans<br>
-<img src='Image/L_star_density_KMeans'><br>
+<img src='Image/L_star_density_KMeans.png'><br>
 この密度曲線上にKMeansによる決定境界をプロットした。The decision boundary by KMeans is plotted on graphs above.<br>
 
 Class0 と Class1 は複数ピークがある -> 表面劣化の影響を強く受け、ヒノキ本来の色のばらつきから離れた集団が含まれている？<br>Class0 and Class1 have multiple peaks -> Does it contain a group that is strongly affected by surface degradation and away from the original color variation of Hinoki?
