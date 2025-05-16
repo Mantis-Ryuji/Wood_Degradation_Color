@@ -73,7 +73,14 @@ $C = b^{*}_{standardized} < 0$
 - **class7**: $\bar{A} \cap \bar{B} \cap \bar{C}$
 
 ### 各クラスの可視化 <br> Visualization of each class
-
+<img src='Image\Classes.png'><br><br>
+表面劣化の影響を受けているのか、表面付近では **Class 0**, **Class 1** が優位になっているように見える。<br>
+特に **Class 0**は表面劣化の影響を強く受けていそうだ。<br>
+It appears that **Class 0** and **Class 1** are predominant near the surface, perhaps influenced by surface degradation. <br> 
+In particular, **Class 0** seems to be strongly affected by surface degradation.
+#### Memo
+- **Class 0** : $L_{star}[standardized] < 0  \cap  a_{star}[standardized] < 0  \cap  b_{star}[standardized] < 0$
+- **Class 1** : $L_{star}[standardized] < 0  \cap  a_{star}[standardized] \geq 0  \cap  b_{star}[standardized] < 0$
 
 
 ## License
