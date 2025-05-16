@@ -2,7 +2,7 @@
 
 ## 背景 <br> Background
 
-長期間を経た木材の劣化についての既往研究は、表面で迅速に進む**気象劣化**と、気象劣化を免れた内部で緩やかに進む**経年変化**に分けて考えられます。（下図）
+長期間を経た木材の劣化についての既往研究は、表面で迅速に進む**気象劣化**と、気象劣化を免れた内部で緩やかに進む**経年変化**に分けて考えられます。（下図）<br>
 Existing research on the deterioration of wood over time can be divided into two categories: **weather deterioration**, which is rapid at the surface, and **ageing**, which is gradual inside the wood that has been spared from weather deterioration.<br><br>
 <img src="Image\keyaki_img.png"> <br><br>
 それぞれについての蓄積はありますが、これらの**二つを連続的に把握する**ような研究はほとんど行われていません。<br>
