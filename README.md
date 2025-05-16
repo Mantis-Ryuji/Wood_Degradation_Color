@@ -83,9 +83,9 @@ In particular, **Class 0** seems to be strongly affected by surface degradation.
 - **Class 1** : $L_{star}[standardized] < 0  \cap  a_{star}[standardized] \geq 0  \cap  b_{star}[standardized] < 0$
 
 - 各クラスのデータ分布を密度曲線を用いて可視化 <br> Visualize data distribution for each class using Kernel Density Estimate
-
+<img src='Image/L_star_density.png'><img src='Image/a_star_density.png'><img src='Image/b_star_density.png'>
 - $L_{star} [standardized]$ の密度曲線を個別にみてみる <br> Let's look at the KDE for L_star [standardized] individually
-<img src='Image/.png'><br><br>
+<img src='Image/L_star_density_separate.png'><br><br>
 $L_{star}[standardized]$ の一部のクラスに複数のピークが見られるため、これに絞って考える<br>
 Since multiple peaks are seen in some classes of L_star[standardized], I focused on this.<br>
 
