@@ -1,5 +1,5 @@
 # Wood_Degradation_Color
-<src img='Image/Color.png'>
+<img src='Image/Color.png'>
 
 
 ### Analysis of color change from surface to interior due to wood deterioration
