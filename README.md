@@ -82,7 +82,7 @@ In particular, **Class 0** seems to be strongly affected by surface degradation.
 - **Class 0** : $L_{star}[standardized] < 0  \cap  a_{star}[standardized] < 0  \cap  b_{star}[standardized] < 0$
 - **Class 1** : $L_{star}[standardized] < 0  \cap  a_{star}[standardized] \geq 0  \cap  b_{star}[standardized] < 0$
 
-#### 各クラスのデータ分布を密度曲線を用いて可視化 <br> Visualize data distribution for each class using Kernel Density Estimate <br>
+### 各クラスのデータ分布を密度曲線を用いて可視化 <br> Visualize data distribution for each class using Kernel Density Estimate <br>
 <img src='Image/L_star_density.png' width='300'><img src='Image/a_star_density.png' width='300'><img src='Image/b_star_density.png' width='300'>
 - $L_{star} [standardized]$ の密度曲線を個別にみてみる <br> Let's look at the KDE for L_star [standardized] individually
 
@@ -100,12 +100,12 @@ The classification is made before and after red line above. Groups with smaller 
 ヒノキ現生材の色分布に関しては`Control.ipynb`にまとめた。<br>
 For the color distribution of non-degraded Hinoki, I summarized it in `Control.ipynb`. <br><br>
 
-#### KMeans により分けられた領域の可視化 <br> Visualization of regions divided by KMeans
-<img src='Image/L_star_binary.png'>
-#### 表面劣化の影響を受けた距離を決定木を用いて定量化する <br> Quantify the distance affected by surface degradation using decision trees
+### KMeans により分けられた領域の可視化 <br> Visualization of regions divided by KMeans
+<img src='Image/L_star_binary.png'> <br>
+### 表面劣化の影響を受けた距離を決定木を用いて定量化する <br> Quantify the distance affected by surface degradation using decision trees
 - 深さ 1 の決定木を用いて **ジニ不純度** が最小となるような Distance (**R_direction**) を算出する。 <br> クラス間の不均衡に対処するために Degradation 0 をアップサンプリングしている
 - Calculate Distance ( **R_direction** ) such that **Gini impurity** is minimized using a depth 1 decision tree. <br> Degradation 0 is upsampled to address imbalances between classes.
-
+<img src='Image/L_star_with_thresholds.png'> <br><br>
 
 
 
