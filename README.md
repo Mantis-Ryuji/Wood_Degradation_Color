@@ -6,8 +6,8 @@
 Existing research on the deterioration of wood over time can be divided into two categories: **weather deterioration**, which is rapid at the surface, and **ageing**, which is gradual inside the wood that has been spared from weather deterioration.<br><br>
 <img src="Image\keyaki_img.png"> <br><br>
 それぞれについての蓄積はありますが、これらの**二つを連続的に把握する**ような研究はほとんど行われていません。<br>
-Although there is a body of work on each, few studies have been done to **grasp** these two consecutively.<br>
 そのため、本研究では、古材の表面から内部にかけての色変化を面的に分析し、劣化による変化を定量的に把握しました。 <br>
+Although there is a body of work on each, few studies have been done to **grasp** these two consecutively.<br>
 Therefore, in this study, I conducted a 2D analysis of the color changes from the surface to the interior of aged wood in order to quantitatively assess the changes caused by deterioration.<br>
 木材は長期間の使用に伴い、その色をはじめとするさまざまな特性が変化します。<br>
 この色変化の測定は、木材の劣化を定量的に評価するための有効な手段となる可能性があります。<br>
