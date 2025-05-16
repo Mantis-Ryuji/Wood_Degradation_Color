@@ -114,12 +114,12 @@ For the color distribution of non-degraded Hinoki, I summarized it in `Control.i
 This allowed me to quantify the distance affected by degradation from surface. <br> 
 
 ## まとめ <br> Summary
-ヒノキ（おそらく心材部分）は表面劣化の影響により L_star と b_star が減少することが分かった。なお、a_star に関しては減少した領域と増加した領域が見られた。<br>
+ヒノキ（おそらく心材部分）は表面劣化の影響により L_star と b_star が減少することが分かった。なお、a_star に関しては減少した領域と増加した領域が見られた。
 決定木により定量化された表面劣化の影響を受けた距離は各方向間で異なることから、ここから当時の日照状況など劣化環境を推測することができると考えられる。また灰色化層（詳しくは`Results.ipynb`）についても同様に、水分の影響を反映していると考えられる。<br>
 For Hinoki (probably the heartwood), L_star and b_star were found to decrease due to degradation from surface. For a_star, there were some areas where a_star decreased and others where it increased.<br>
 Since the distance affected by degradation from surface quantified by the decision tree differs in each direction, it is possible to infer the degradation environment, such as sunlight conditions at that time, from this information.<br> 
 Similarly, the graying layer is thought to reflect the effect of moisture.
-#### 問題点 <br> Issues
+## 問題点 <br> Issues
 - この分析方法では最表面部分の劣化を検出できていない。この部分は劣化により低分子化した成分が水分により溶脱した層、**灰色化層** と考えらる。灰色化層には、$L_{star}[standardized]$が正のクラス（Class 4, 5）が含まれるため、閾値一つでは分けることができなかった。<br> This analysis method did not detect degradation on the top surface. This area is considered to be the **graying layer**, which is a layer of low-molecular-weight components dissolved by moisture due to degradation. Since the graying layer includes classes (Class 4, 5) with a positive $L_{star}[standardized]$, it could not be separated by a single threshold.
 - 色変化が他の特性、力学的特性などと、どのように対応するかが不明。（曲げヤング率とブリネル硬さは表面と内部でほぼ変化しない。強度に関してはまだわからないが、さすがに変化していると思う。）<br> It is unclear how the color change corresponds to other properties, mechanical properties, etc. (Young's modulus in bending and Brinell hardness are virtually unchanged between the surface and the interior. As for strength, it's still unknown, but I hope it has indeed changed..)
 - 色変化は抽出成分による影響も大きく、リグニン、セルロース、ヘミセルロースの変化が直接反映されるわけではないので、色変化の原因を特定することが難しい。<br> Since the color change is largely influenced by extracted components and does not directly reflect changes in lignin, cellulose, or hemicellulose, it is difficult to identify the cause of the color change.
