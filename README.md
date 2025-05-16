@@ -1,6 +1,6 @@
 # 劣化による表面から内部にかけての色変化の解析 <br><br> Analysis of color change from surface to interior due to wood deterioration
 
-## 背景 <br><br> Background
+## 背景 <br> Background
 
 長期間を経た木材の劣化についての既往研究は、表面で迅速に進む**気象劣化**と、気象劣化を免れた内部で緩やかに進む**経年変化**に分けて考えられます。（下図）
 Existing research on the deterioration of wood over time can be divided into two categories: **weather deterioration**, which is rapid at the surface, and **ageing**, which is gradual inside the wood that has been spared from weather deterioration.<br><br>
@@ -16,7 +16,7 @@ As wood is used over time, its color and many other properties change. <br>
 Measurement of this color change could be an effective means of quantitatively evaluating wood deterioration. <br> 
 Furthermore, by examining the relationship with other properties, it could be used as a nondestructive measure of wood deterioration.
 
-## 試料について <br><br> About Materials
+## 試料について <br> About Materials
 <img src='Image\Zuiganji1.png' width='600'><br><br>
 試料として宮城県にある**瑞巌寺**というお寺の柱材を用いました。<br>
 樹種はヒノキで、年輪年代法により最外年輪年代が**1574**年だと、判明しています。<br>
@@ -31,7 +31,7 @@ The sample handled here was used at the base of the column wood, at the position
 測色に用いる試験体として以下の図のように、L方向に約50mm、T方向に2mm、R方向に髄まで切削し、**まさ目板の試験体**を作成しました。<br><br>
 <img src='Image\Material.png' width='600'>
 
-## 測色 <br><br> Color Measurement
+## 測色 <br> Color Measurement
 表面から内部にかけて劣化による変色の**グラデーション**が目視で確認されたため、イメージング分光装置（Imspector V8E、JFEテクノリサーチ）を用いて精密に色を測定しました。<br>
 試験体のR方向がステージの移動方向と一致するように設置し、**分解能0.06mm/pixel**で、色データを**Lab表色系**(＊)の色彩値として取得しました。<br>
 Since **gradation** of discoloration due to deterioration was visually observed from the surface to the interior, the color was precisely measured using an imaging spectrometer (Imspector V8E, JFE Techno Research). <br> 
@@ -43,21 +43,17 @@ https://www.konicaminolta.jp/instruments/knowledge/color/section2/2-02/ <br>
 Lab表色系は、三次元空間で任意の色を表す表色系です。<br>
 The Lab color space is a color system that represents any color in three-dimensional space.<br><br>
 
+## 分析 <br> Analysis
+### Lab の可視化 <br> Lab Visualization
+L_star をグレースケールで、a_star, b_star をそれぞれ赤と青の濃淡で表している。<br>
+以下の図から、表面からの劣化の影響により特に明度 L_star が減少していることがわかる。<br>
+L_star is shown in grayscale, and a_star and b_star are shown in shades of red and blue, respectively. <br> 
+The following figure shows that the brightness L_star is particularly reduced due to the effects of degradation from the surface.<br><br>
+<><><>
 
-
-
-
-### Analysis of color change from surface to interior due to wood deterioration
-Since discoloration due to wood deterioration seems to be greatly influenced by extracted components, it would be difficult to predict deterioration based on color alone.<br>
-It would be nice if changes in lignin, cellulose, and hemicellulose were directly reflected in the color, but reality is more complicated.<br>
-This is my first time writing a README, but it's clear that this isn't what I should write.<br>
-I hope this repository has been useful to someone.
-
-- I packed too much content into 03_Results.ipynb, which is causing it to load slowly. Lesson learned...
-
-### License
-
-
+## License
+This project is licensed under the MIT License.  
+See the [LICENSE](LICENSE) file for more details.
 
 
 
