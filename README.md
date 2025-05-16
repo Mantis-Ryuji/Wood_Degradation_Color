@@ -110,7 +110,7 @@ For the color distribution of non-degraded Hinoki, I summarized it in `Control.i
 これにより表面劣化の影響を受けた距離を定量化することができた。<br>
 This allowed me to quantify the distance affected by degradation from surface. <br> 
 
-## 結論 <br> Conclusion
+## まとめ <br> Summary
 
 
 
