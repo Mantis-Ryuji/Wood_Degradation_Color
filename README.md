@@ -90,13 +90,21 @@ In particular, **Class 0** seems to be strongly affected by surface degradation.
 
 - $L_{star}[standardized]$ の一部のクラス（ **Class 0** と **Class 1** ）に複数のピークが見られるため、KMeansを用いてクラスタリング <br> Since multiple peaks are seen in some classes, I focused on this and divided into two classes by KMeans<br>
 
-<img src='Image/L_star_density_KMeans.png' width='500'><br>
+<img src='Image/L_star_density_KMeans.png' width='600'><br>
 
 この密度曲線上にKMeansによる決定境界をプロットした。The decision boundary by KMeans is plotted on graphs above.<br>
 
 Class0 と Class1 は複数ピークがある -> 表面劣化の影響を強く受け、ヒノキ本来の色のばらつきから離れた集団が含まれている？ <br> Class0 and Class1 have multiple peaks -> Does it contain a group that is strongly affected by surface degradation and away from the original color variation of Hinoki? <br>
+上図の赤線の前後で分類している。決定境界よりも $L_{star}[standardized]$ の値が小さいグループを表面劣化の影響を受けたと思われる部分として **Degradation 0** , **Degradation 1** と名付けた。<br>
+The classification is made before and after red line above. Groups with smaller values of L_star[standardized] than the decision boundary were named **Degradation 0** , **Degradation 1** as areas that may have been affected by degradation from surface.<br><br>
 ヒノキ現生材の色分布に関しては`Control.ipynb`にまとめた。<br>
-For the color distribution of non-degraded Hinoki, I summarized it in `Control.ipynb`.
+For the color distribution of non-degraded Hinoki, I summarized it in `Control.ipynb`. <br><br>
+
+#### KMeans により分けられた領域の可視化 <br> Visualization of regions divided by KMeans
+<img src='Image/L_star_binary.png'>
+
+
+
 
 ## License
 This project is licensed under the MIT License.  
