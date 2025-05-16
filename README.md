@@ -7,7 +7,7 @@ Existing research on the deterioration of wood over time can be divided into two
 <img src="Image\keyaki_img.png"> <br><br>
 それぞれについての蓄積はありますが、これらの**二つを連続的に把握する**ような研究はほとんど行われていません。<br>
 Although there is a body of work on each, few studies have been done to **grasp** these two consecutively.<br>
-そのため、本研究では、古材の表面から内部にかけての色変化を連続的に分析し、劣化の遷移を量的に把握しました。 <br>
+そのため、本研究では、古材の表面から内部にかけての色変化を面的に分析し、劣化の遷移を量的に把握しました。 <br>
 Therefore, this study quantified the transition of deterioration by continuously analyzing the color change from the surface to the interior of the old wood.<br>
 木材は長期間の使用に伴い、その色をはじめとするさまざまな特性が変化します。<br>
 この色変化の測定は、木材の劣化を定量的に評価するための有効な手段となる可能性があります。<br>
