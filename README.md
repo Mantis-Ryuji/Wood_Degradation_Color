@@ -43,7 +43,7 @@ https://www.konicaminolta.jp/instruments/knowledge/color/section2/2-02/ <br>
 Lab表色系は、三次元空間で任意の色を表す表色系です。<br>
 The Lab color space is a color system that represents any color in three-dimensional space.<br><br>
 
-## 分析 <br> Analysis
+## 分析結果 <br> Results
 ### Lab の可視化 <br> Lab Visualization
 L_star をグレースケールで、a_star, b_star をそれぞれ赤と青の濃淡で表している。<br>
 以下の図から、表面からの劣化の影響により特に明度 L_star が減少していることがわかる。<br>
@@ -104,8 +104,15 @@ For the color distribution of non-degraded Hinoki, I summarized it in `Control.i
 <img src='Image/L_star_binary.png'> <br>
 ### 表面劣化の影響を受けた距離を決定木を用いて定量化する <br> Quantify the distance affected by surface degradation using decision trees
 - 深さ 1 の決定木を用いて **ジニ不純度** が最小となるような Distance (**R_direction**) を算出する。 <br> クラス間の不均衡に対処するために Degradation 0 をアップサンプリングしている
-- Calculate Distance ( **R_direction** ) such that **Gini impurity** is minimized using a depth 1 decision tree. <br> Degradation 0 is upsampled to address imbalances between classes.
-<img src='Image/L_star_with_thresholds.png'> <br><br>
+- Calculate Distance ( **R_direction** ) such that **Gini impurity** is minimized using a depth 1 decision tree. <br> Degradation 0 is upsampled to address imbalances between classes.<br>
+<img src='Image/L_star_with_thresholds.png'> <br>
+<img src='Image/tree_plot.png'><br><br>
+これにより表面劣化の影響を受けた距離を定量化することができた。<br>
+This allowed me to quantify the distance affected by degradation from surface. <br> 
+
+## 結論 <br> Conclusion
+
+
 
 
 
