@@ -1,4 +1,4 @@
-# 化による表面から内部にかけての色変化の解析 <br><br> Analysis of color change from surface to interior due to wood deterioration
+# 劣化による表面から内部にかけての色変化の解析 <br><br> Analysis of color change from surface to interior due to wood deterioration
 
 ## 背景 <br><br> Background
 
