@@ -95,7 +95,7 @@ In particular, **Class 0** seems to be strongly affected by surface degradation.
 
 <img src='Image/L_star_density_KMeans.png' width='600'><br>
 
-この密度曲線上にKMeansによる決定境界をプロットした。The decision boundary by KMeans is plotted on graphs above.<br>
+この密度曲線上にKMeansによる決定境界をプロットした。<br>The decision boundary by KMeans is plotted on graphs above.<br>
 上図の赤線の前後で分類している。決定境界よりも $L_{star}[standardized]$ の値が小さいグループを表面劣化の影響を受けたと思われる部分として **Degradation 0** , **Degradation 1** と名付けた。<br>
 The classification is made before and after red line above. Groups with smaller values of L_star[standardized] than the decision boundary were named **Degradation 0** , **Degradation 1** as areas that may have been affected by degradation from surface.<br><br>
 ヒノキ現生材の色分布に関しては`Control.ipynb`にまとめた。<br>
@@ -112,9 +112,11 @@ For the color distribution of non-degraded Hinoki, I summarized it in `Control.i
 This allowed me to quantify the distance affected by degradation from surface. <br> 
 
 ## まとめ <br> Summary
-ヒノキ（おそらく心材部分）は表面劣化の影響により L_star と b_star が減少することが分かった。なお、a_star に関しては減少した領域と増加した領域が見られた。
+この分析方法により、表面劣化の影響を受けたと考えられる領域を検出し、表面劣化の影響を受けた距離を定量化することができた。
+またこれにより、ヒノキ（おそらく心材部分）は表面劣化の影響によって L_star と b_star が減少することが分かった。なお、a_star に関しては減少した領域と増加した領域が見られた。
 決定木により定量化された表面劣化の影響を受けた距離は各方向間で異なることから、ここから当時の日照状況など劣化環境を推測することができると考えられる。また灰色化層（詳しくは`Results.ipynb`）についても同様に、水分の影響を反映していると考えられる。<br>
-For Hinoki (probably the heartwood), L_star and b_star were found to decrease due to degradation from surface. For a_star, there were some areas where a_star decreased and others where it increased.<br>
+This method allowed us to detect areas that may have been affected by surface degradation and to quantify the distance affected by surface degradation.
+And this also revealed that L_star and b_star decreased in the case of cypress (presumably the heartwood portion) due to the effects of surface degradation. For a_star, there were some areas where a_star decreased and others where it increased.<br>
 Since the distance affected by degradation from surface quantified by the decision tree differs in each direction, it is possible to infer the degradation environment, such as sunlight conditions at that time, from this information.<br> 
 Similarly, the graying layer is thought to reflect the effect of moisture.
 ## 問題点 <br> Issues
