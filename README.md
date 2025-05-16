@@ -73,7 +73,7 @@ $C = b^{*}_{standardized} < 0$
 - **class7**: $\bar{A} \cap \bar{B} \cap \bar{C}$
 
 ### 各クラスの可視化 <br> Visualization of each class
-<img src='Image\Classes.png'><br><br>
+<img src='Image\Classes.png' width='800'><br><br>
 表面劣化の影響を受けているのか、表面付近では **Class 0**, **Class 1** が優位になっているように見える。<br>
 特に **Class 0**は表面劣化の影響を強く受けていそうだ。<br>
 It appears that **Class 0** and **Class 1** are predominant near the surface, perhaps influenced by surface degradation. <br> 
@@ -101,7 +101,7 @@ The classification is made before and after red line above. Groups with smaller 
 For the color distribution of non-degraded Hinoki, I summarized it in `Control.ipynb`. <br><br>
 
 ### KMeans により分けられた領域の可視化 <br> Visualization of regions divided by KMeans
-<img src='Image/L_star_binary.png'> <br>
+<img src='Image/L_star_binary.png' width='800'> <br>
 ### 表面劣化の影響を受けた距離を決定木を用いて定量化する <br> Quantify the distance affected by surface degradation using decision trees
 - 深さ 1 の決定木を用いて **ジニ不純度** が最小となるような Distance (**R_direction**) を算出する。 <br> クラス間の不均衡に対処するために Degradation 0 をアップサンプリングしている
 - Calculate Distance ( **R_direction** ) such that **Gini impurity** is minimized using a depth 1 decision tree. <br> Degradation 0 is upsampled to address imbalances between classes.<br>
