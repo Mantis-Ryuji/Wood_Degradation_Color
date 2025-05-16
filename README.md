@@ -3,7 +3,7 @@
 ## 背景 <br><br> Background
 
 長期間を経た木材の劣化についての既往研究は、表面で迅速に進む**気象劣化**と、気象劣化を免れた内部で緩やかに進む**経年変化**に分けて考えられます。（下図）
-Existing research on the deterioration of wood over time can be divided into two categories: **weather deterioration**, which is rapid at the surface, and **ageing**, which is gradual inside the wood that has been spared from weather deterioration.<br>
+Existing research on the deterioration of wood over time can be divided into two categories: **weather deterioration**, which is rapid at the surface, and **ageing**, which is gradual inside the wood that has been spared from weather deterioration.<br><br>
 <img src="Image\keyaki_img.png"> <br>
 それぞれについての蓄積はありますが、これらの**二つを連続的に把握する**ような研究はほとんど行われていません。<br>
 Although there is a body of work on each, few studies have been done to **grasp** these two consecutively.<br>
@@ -23,13 +23,13 @@ Furthermore, by examining the relationship with other properties, it could be us
 このように各方向に 1 ~ 4 の番号を付けています。<br>
 The sample was a pillar wood from **Zuiganji Temple** in Miyagi Prefecture, Japan. <br> 
 The species is Hinoki, and the outermost ring age was determined to be **1574*** by dendrochronology. <br> 
-Each direction is numbered 1 ~ 4.<br>
+Each direction is numbered 1 ~ 4.<br><br>
 <img src='Image\Zuiganji2.png'><br>
 文分化財建造物保存技術協会編著（2018）国宝瑞巌寺本堂ほか7棟保存修理工事報告書<br>
 ここで取り扱った試料は柱材の根元の部分で、**赤丸**の位置で用いられていました。<br>
 The sample handled here was used at the base of the column wood, at the position indicated by the **red circle**.<br>
-測色に用いる試験体として以下の図のように、L方向に約50mm、T方向に2mm、R方向に髄まで切削し、**まさ目板の試験体**を作成しました。<br>
-<img src='Image\Material.png'>
+測色に用いる試験体として以下の図のように、L方向に約50mm、T方向に2mm、R方向に髄まで切削し、**まさ目板の試験体**を作成しました。<br><br>
+<img src='Image\Material.png' width='500'>
 
 ## 測色 <br><br> Color Measurement
 表面から内部にかけて劣化による変色の**グラデーション**が目視で確認されたため、イメージング分光装置（Imspector V8E、JFEテクノリサーチ）を用いて精密に色を測定しました。<br>
