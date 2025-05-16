@@ -49,10 +49,32 @@ L_star をグレースケールで、a_star, b_star をそれぞれ赤と青の�
 以下の図から、表面からの劣化の影響により特に明度 L_star が減少していることがわかる。<br>
 L_star is shown in grayscale, and a_star and b_star are shown in shades of red and blue, respectively. <br> 
 The following figure shows that the brightness L_star is particularly reduced due to the effects of degradation from the surface.<br><br>
-<img src='Image\L_star.png' width='500'><img src='Image\a_star.png' width='500'><img src='Image\b_star.png' width='500'>
+<img src='Image\L_star.png' width='400'><img src='Image\a_star.png' width='400'><img src='Image\b_star.png' width='400'>
 - 方向ごとの色むらを無視するために標準化
-- Standardized to ignore color irregularities in each direction
-<img src='Image\L_star_standardized.png' width='500'><img src='Image\a_star_standardized.png' width='500'><img src='Image\b_star_standardized.png' width='500'><br><br>
+- Standardized to ignore color irregularities in each direction <br>
+<img src='Image\L_star_standardized.png' width='400'><img src='Image\a_star_standardized.png' width='400'><img src='Image\b_star_standardized.png' width='400'><br>
+### 表面劣化の影響を受けたグループを探す <br> Look for groups affected by degradation from the surface.
+探索を容易にするために（探索する範囲を狭める）、以下のように8つのクラスに分けた。<br>
+To make the search easier(and narrow the scope to be explored), I have divided it into eight classes as follows. <br>
+
+$A = L^{*}_{standardized} < 0$
+
+$B = a^{*}_{standardized} < 0$
+
+$C = b^{*}_{standardized} < 0$
+
+- **class0**: $ A \cap B \cap C$
+- **class1**: $ A \cap \bar{B} \cap C$
+- **class2**: $ A \cap B \cap \bar{C}$
+- **class3**: $ A \cap \bar{B} \cap \bar{C}$
+- **class4**: $ \bar{A} \cap B \cap C$
+- **class5**: $ \bar{A} \cap B \cap \bar{C}$
+- **class6**: $ \bar{A} \cap \bar{B} \cap C$
+- **class7**: $ \bar{A} \cap \bar{B} \cap \bar{C}$
+
+### 各クラスの可視化 <br> Visualization of each class
+
+
 
 ## License
 This project is licensed under the MIT License.  
