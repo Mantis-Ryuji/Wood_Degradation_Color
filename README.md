@@ -52,11 +52,17 @@ L_star をグレースケールで、a_star, b_star をそれぞれ赤と青の�
 以下の図から、表面からの劣化の影響により特に明度 L_star が減少していることがわかる。<br>
 L_star is shown in grayscale, and a_star and b_star are shown in shades of red and blue, respectively. <br> 
 The following figure shows that the brightness L_star is particularly reduced due to the effects of degradation from the surface.<br><br>
-<img src='Image\L_star.png' width='300'><img src='Image\a_star.png' width='300'><img src='Image\b_star.png' width='300'>
+<img src='Image\L_star.png' width='500'> <br>
+<img src='Image\a_star.png' width='500'> <br>
+<img src='Image\b_star.png' width='500'> <br>
+
 - 方向ごとの色むらを無視するために標準化
 - Standardized to ignore color irregularities in each direction
 <br>
-<img src='Image\L_star_standardized.png' width='300'><img src='Image\a_star_standardized.png' width='300'><img src='Image\b_star_standardized.png' width='300'><br>
+<img src='Image\L_star_standardized.png' width='500'><br>
+<img src='Image\a_star_standardized.png' width='500'><br>
+<img src='Image\b_star_standardized.png' width='500'><br>
+
 ### 表面劣化の影響を受けたグループを探す <br> Look for groups affected by degradation from the surface.
 探索を容易にするために（探索する範囲を狭める）、以下のように8つのクラスに分けた。<br>
 To make the search easier(and narrow the scope to be explored), I have divided it into eight classes as follows. <br>
@@ -106,7 +112,8 @@ For the color distribution of non-degraded Hinoki, I summarized it in `02_Contro
 <img src='Image/L_star_binary.png' width='800'> <br>
 ### 表面劣化の影響を受けた距離を決定木を用いて定量化する <br> Quantify the distance affected by surface degradation using decision trees
 - 深さ 1 の決定木を用いて **ジニ不純度** が最小となるような Distance (**R_direction**) を算出する。
-- Calculate Distance ( **R_direction** ) such that **Gini impurity** is minimized using a depth 1 decision tree. <br> 
+- Calculate Distance ( **R_direction** ) such that **Gini impurity** is minimized using a depth 1 decision tree.
+<br> 
 <img src='Image/L_star_with_thredholds.png' width='800'> <br>
 <img src='Image/tree_plot.png' width='600'><br><br>
 これにより表面劣化の影響を受けた距離を定量化することができた。<br>
