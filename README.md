@@ -54,7 +54,8 @@ L_star is shown in grayscale, and a_star and b_star are shown in shades of red a
 The following figure shows that the brightness L_star is particularly reduced due to the effects of degradation from the surface.<br><br>
 <img src='Image\L_star.png' width='300'><img src='Image\a_star.png' width='300'><img src='Image\b_star.png' width='300'>
 - 方向ごとの色むらを無視するために標準化
-- Standardized to ignore color irregularities in each direction <br>
+- Standardized to ignore color irregularities in each direction
+<br>
 <img src='Image\L_star_standardized.png' width='300'><img src='Image\a_star_standardized.png' width='300'><img src='Image\b_star_standardized.png' width='300'><br>
 ### 表面劣化の影響を受けたグループを探す <br> Look for groups affected by degradation from the surface.
 探索を容易にするために（探索する範囲を狭める）、以下のように8つのクラスに分けた。<br>
@@ -91,15 +92,15 @@ In particular, **Class 0** seems to be strongly affected by surface degradation.
 
 <img src='Image/L_star_density_separate.png' width='800'><br><br>
 
-- $L_{star}[standardized]$ の一部のクラス（ **Class 0** と **Class 1** ）に複数のピークが見られるため、KMeansを用いてクラスタリング <br> Since multiple peaks are seen in some classes, I focused on this and divided into two classes by KMeans<br>
+- $L_{star}[standardized]$ の一部のクラス（ **Class 0** と **Class 1** ）に複数のピークが見られる。すなわち、ヒノキ本来の色のばらつきから離れた集団が存在すると考え、KMeansを用いてクラスタリングした。 <br> Since multiple peaks are seen in some classes, I focused on this and divided into two classes by KMeans<br>
 
 <img src='Image/L_star_density_KMeans.png' width='600'><br>
 
 この密度曲線上にKMeansによる決定境界をプロットした。<br>The decision boundary by KMeans is plotted on graphs above.<br>
 上図の赤線の前後で分類している。決定境界よりも $L_{star}[standardized]$ の値が小さいグループを表面劣化の影響を受けたと思われる部分として **Degradation 0** , **Degradation 1** と名付けた。<br>
 The classification is made before and after red line above. Groups with smaller values of L_star[standardized] than the decision boundary were named **Degradation 0** , **Degradation 1** as areas that may have been affected by degradation from surface.<br><br>
-ヒノキ現生材の色分布に関しては`Control.ipynb`にまとめた。<br>
-For the color distribution of non-degraded Hinoki, I summarized it in `Control.ipynb`. <br><br>
+ヒノキ現生材の色分布に関しては`02_Control.ipynb`にまとめた。<br>
+For the color distribution of non-degraded Hinoki, I summarized it in `02_Control.ipynb`. <br><br>
 
 ### KMeans により分けられた領域の可視化 <br> Visualization of regions divided by KMeans
 <img src='Image/L_star_binary.png' width='800'> <br>
@@ -114,11 +115,11 @@ This allowed me to quantify the distance affected by degradation from surface. <
 ## まとめ <br> Summary
 この分析方法により、表面劣化の影響を受けたと考えられる領域を検出し、表面劣化の影響を受けた距離を定量化することができた。
 またこれにより、ヒノキ（おそらく心材部分）は表面劣化の影響によって L_star と b_star が減少することが分かった。なお、a_star に関しては減少した領域と増加した領域が見られた。
-決定木により定量化された表面劣化の影響を受けた距離は各方向間で異なることから、ここから当時の日照状況など劣化環境を推測することができると考えられる。また灰色化層（詳しくは`Results.ipynb`）についても同様に、水分の影響を反映していると考えられる。<br>
+決定木により定量化された表面劣化の影響を受けた距離は各方向間で異なることから、ここから当時の日照状況など劣化環境を推測することができると考えられる。また灰色化層（詳しくは`01_Results.ipynb`）についても同様に、水分の影響を反映していると考えられる。<br>
 This method allowed us to detect areas that may have been affected by surface degradation and to quantify the distance affected by surface degradation.
 And this also revealed that L_star and b_star decreased in the case of Hinoki (presumably the heartwood portion) due to the effects of surface degradation. For a_star, there were some areas where a_star decreased and others where it increased.<br>
 Since the distance affected by degradation from surface quantified by the decision tree differs in each direction, it is possible to infer the degradation environment, such as sunlight conditions at that time, from this information.<br> 
-Similarly, the graying layer (details for `Results.ipynb`) is thought to reflect the effect of moisture.
+Similarly, the graying layer (details for `01_Results.ipynb`) is thought to reflect the effect of moisture.
 ## 問題点 <br> Issues
 - この分析方法では最表面部分の劣化を検出できていない。この部分は劣化により低分子化した成分が水分により溶脱した層、**灰色化層** と考えらる。灰色化層には、 $L_{star}[standardized]$ が正のクラス（Class 4, 5）が含まれるため、閾値一つでは分けることができなかった。<br> This analysis method did not detect degradation on the top surface. This area is considered to be the **graying layer**, which is a layer of low-molecular-weight components dissolved by moisture due to degradation. Since the graying layer includes classes (Class 4, 5) with a positive $L_{star}[standardized]$, it could not be separated by a single threshold.
 - 色変化が他の特性、力学的特性などと、どのように対応するかが不明。（曲げヤング率とブリネル硬さは表面と内部でほぼ変化しない。強度に関してはまだわからないが、さすがに変化していると思う。）<br> It is unclear how the color change corresponds to other properties, mechanical properties, etc. (Young's modulus in bending and Brinell hardness are virtually unchanged between the surface and the interior. As for strength, it's still unknown, but I hope it has indeed changed..)
