@@ -104,8 +104,8 @@ For the color distribution of non-degraded Hinoki, I summarized it in `Control.i
 ### KMeans により分けられた領域の可視化 <br> Visualization of regions divided by KMeans
 <img src='Image/L_star_binary.png' width='800'> <br>
 ### 表面劣化の影響を受けた距離を決定木を用いて定量化する <br> Quantify the distance affected by surface degradation using decision trees
-- 深さ 1 の決定木を用いて **ジニ不純度** が最小となるような Distance (**R_direction**) を算出する。 <br> クラス間の不均衡に対処するために Degradation 0 をアップサンプリングしている
-- Calculate Distance ( **R_direction** ) such that **Gini impurity** is minimized using a depth 1 decision tree. <br> Degradation 0 is upsampled to address imbalances between classes.<br>
+- 深さ 1 の決定木を用いて **ジニ不純度** が最小となるような Distance (**R_direction**) を算出する。
+- Calculate Distance ( **R_direction** ) such that **Gini impurity** is minimized using a depth 1 decision tree. <br> 
 <img src='Image/L_star_with_thredholds.png' width='800'> <br>
 <img src='Image/tree_plot.png' width='600'><br><br>
 これにより表面劣化の影響を受けた距離を定量化することができた。<br>
