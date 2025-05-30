@@ -117,7 +117,23 @@ For the color distribution of non-degraded Hinoki, I summarized it in `02_Contro
 <img src='Image/L_star_with_thredholds.png' width='800'> <br>
 <img src='Image/tree_plot.png' width='600'><br><br>
 これにより表面劣化の影響を受けた距離を定量化することができた。<br>
-This allowed me to quantify the distance affected by degradation from surface. <br> 
+This allowed me to quantify the distance affected by degradation from surface. <br>
+
+### Appendix
+Visualization of the L_star values of the divided regions by the previous analysis methods
+- #### Regions
+  `navy`: **Degradation 0**, `skyblue`: **Degradation 1**, `white`: **Others**
+<img src='Image/L_star_degradated.png' width='600'>
+
+- #### Boxplot
+**Direction 1** (See `About Materials`) <br>
+<img src='Image/L_star_boxplot0.png' width='400'> <br>
+**Direction 2** <br>
+<img src='Image/L_star_boxplot1.png' width='400'> <br>
+**Direction 3** <br>
+<img src='Image/L_star_boxplot2.png' width='400'> <br>
+**Direction 4** <br>
+<img src='Image/L_star_boxplot3.png' width='400'>
 
 ## まとめ <br> Summary
 この分析方法により、表面劣化の影響を受けたと考えられる領域を検出し、表面劣化の影響を受けた距離を定量化することができた。
