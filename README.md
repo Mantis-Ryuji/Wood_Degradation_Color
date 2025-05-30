@@ -59,11 +59,11 @@ The following figure shows that the brightness L_star is particularly reduced du
 - 方向ごとの色むらを無視するために標準化
 - Standardized to ignore color irregularities in each direction <br>
 
-**$L^{*}_{standardized}$**<br>
+**$L^{*}_{standardized}$**<br><br>
 <img src='Image\L_star_standardized.png' width='500'><br>
-**$a^{*}_{standardized}$**<br>
+**$a^{*}_{standardized}$**<br><br>
 <img src='Image\a_star_standardized.png' width='500'><br>
-**$b^{*}_{standardized}$**<br>
+**$b^{*}_{standardized}$**<br><br>
 <img src='Image\b_star_standardized.png' width='500'><br>
 
 ### 表面劣化の影響を受けたグループを探す <br> Look for groups affected by degradation from the surface.
