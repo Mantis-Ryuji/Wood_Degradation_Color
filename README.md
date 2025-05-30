@@ -144,7 +144,7 @@ Visualization of the Lab values of the divided regions by the previous analysis 
 <img src='Image/L_star_degradated.png' width='600'>
 
 ### Boxplot L_star
-**Direction 1** (See `About Materials`) <br>
+**Direction 1** (See `About Materials` for Direction number) <br>
 <img src='Image/L_star_boxplot0.png' width='600'> <br>
 **Direction 2** <br>
 <img src='Image/L_star_boxplot1.png' width='600'> <br>
@@ -154,7 +154,7 @@ Visualization of the Lab values of the divided regions by the previous analysis 
 <img src='Image/L_star_boxplot3.png' width='600'>
 
 ### Boxplot a_star
-**Direction 1** (See `About Materials`) <br>
+**Direction 1** <br>
 <img src='Image/a_star_boxplot0.png' width='600'> <br>
 **Direction 2** <br>
 <img src='Image/a_star_boxplot1.png' width='600'> <br>
@@ -164,7 +164,7 @@ Visualization of the Lab values of the divided regions by the previous analysis 
 <img src='Image/a_star_boxplot3.png' width='600'>
 
 ### Boxplot b_star
-**Direction 1** (See `About Materials`) <br>
+**Direction 1**  <br>
 <img src='Image/b_star_boxplot0.png' width='600'> <br>
 **Direction 2** <br>
 <img src='Image/b_star_boxplot1.png' width='600'> <br>
