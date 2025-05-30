@@ -59,22 +59,22 @@ The following figure shows that the brightness L_star is particularly reduced du
 - 方向ごとの色むらを無視するために標準化
 - Standardized to ignore color irregularities in each direction <br>
 
-**$L^{*}_{standardized}$**<br><br>
+**$L_{star} [standardized]$**<br><br>
 <img src='Image\L_star_standardized.png' width='500'><br>
-**$a^{*}_{standardized}$**<br><br>
+**$a_{star} [standardized]$**<br><br>
 <img src='Image\a_star_standardized.png' width='500'><br>
-**$b^{*}_{standardized}$**<br><br>
+**$b_{star} [standardized]$**<br><br>
 <img src='Image\b_star_standardized.png' width='500'><br>
 
 ### 表面劣化の影響を受けたグループを探す <br> Look for groups affected by degradation from the surface.
 探索を容易にするために（探索する範囲を狭める）、以下のように8つのクラスに分けた。<br>
 To make the search easier(and narrow the scope to be explored), I have divided it into eight classes as follows. <br>
 
-$A = L^{*}_{standardized} < 0$
+$A = L_{star} [standardized] < 0$
 
-$B = a^{*}_{standardized} < 0$
+$B = a_{star} [standardized] < 0$
 
-$C = b^{*}_{standardized} < 0$
+$C = b_{star} [standardized] < 0$
 
 - **class0**: $A \cap B \cap C$ 
 - **class1**: $A \cap \bar{B} \cap C$
