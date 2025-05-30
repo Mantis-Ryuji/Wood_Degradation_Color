@@ -121,11 +121,12 @@ This allowed me to quantify the distance affected by degradation from surface. <
 
 ### Appendix
 Visualization of the Lab values of the divided regions by the previous analysis methods
-- #### Regions
-  `navy`: **Degradation 0**, `skyblue`: **Degradation 1**, `white`: **Others**
+#### Regions
+`navy`: **Degradation 0**, `skyblue`: **Degradation 1**, `white`: **Others**
+<br>
 <img src='Image/L_star_degradated.png' width='600'>
 
-- #### Boxplot L_star
+#### Boxplot L_star
 **Direction 1** (See `About Materials`) <br>
 <img src='Image/L_star_boxplot0.png' width='600'> <br>
 **Direction 2** <br>
@@ -135,7 +136,7 @@ Visualization of the Lab values of the divided regions by the previous analysis 
 **Direction 4** <br>
 <img src='Image/L_star_boxplot3.png' width='600'>
 
-- #### Boxplot a_star
+#### Boxplot a_star
 **Direction 1** (See `About Materials`) <br>
 <img src='Image/a_star_boxplot0.png' width='600'> <br>
 **Direction 2** <br>
@@ -145,7 +146,7 @@ Visualization of the Lab values of the divided regions by the previous analysis 
 **Direction 4** <br>
 <img src='Image/a_star_boxplot3.png' width='600'>
 
-- #### Boxplot b_star
+#### Boxplot b_star
 **Direction 1** (See `About Materials`) <br>
 <img src='Image/b_star_boxplot0.png' width='600'> <br>
 **Direction 2** <br>
