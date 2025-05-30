@@ -128,7 +128,7 @@ This allowed me to quantify the distance affected by degradation from surface. <
 またこれにより、ヒノキ（おそらく心材部分）は表面劣化の影響によって L_star と b_star が減少することが分かった。なお、a_star に関しては減少した領域と増加した領域が見られた。
 決定木により定量化された表面劣化の影響を受けた距離は各方向間で異なることから、ここから当時の日照状況など劣化環境を推測することができると考えられる。また灰色化層（詳しくは`01_Results.ipynb`）についても同様に、水分の影響を反映していると考えられる。<br>
 This method allowed me to detect areas that may have been affected by surface degradation and to quantify the distance affected by surface degradation.
-And this also revealed that L_star and b_star decreased in the case of Hinoki (presumably the heartwood portion) due to the effects of surface degradation. For a_star, there were some areas where a_star decreased and others where it increased.<br>
+And this also revealed that L_star and b_star decreased in the case of Hinoki (presumably the heartwood portion) due to the effects of surface degradation. For a_star, there were some areas where a_star decreased and increased.<br>
 Since the distance affected by degradation from surface quantified by the decision tree differs in each direction, it is possible to infer the degradation environment, such as sunlight conditions at that time, from this information.<br> 
 Similarly, the graying layer (details for `01_Results.ipynb`) is thought to reflect the effect of moisture.
 ## 問題点 <br> Issues
