@@ -105,11 +105,10 @@ In particular, **Class 0** seems to be strongly affected by surface degradation.
 
 <img src='Image/L_star_density_KMeans.png' width='600'><br>
 
-この密度曲線上にKMeansによる決定境界をプロットした。<br>The decision boundary by KMeans is plotted on graphs above.<br>
-上図の赤線の前後で分類している。決定境界よりも $L_{star}[standardized]$ の値が小さいグループを表面劣化の影響を受けたと思われる部分として **Degradation 0** , **Degradation 1** と名付けた。<br>
-The classification is made before and after red line above. Groups with smaller values of L_star[standardized] than the decision boundary were named **Degradation 0** , **Degradation 1** as areas that may have been affected by degradation from surface.<br><br>
-ヒノキ現生材の色分布に関しては`02_Control.ipynb`にまとめた。<br>
-For the color distribution of non-degraded Hinoki, I summarized it in `02_Control.ipynb`. <br><br>
+この密度曲線上にKMeansによる決定境界をプロットした。上図の赤線の前後で分類している。決定境界よりも $L_{star}[standardized]$ の値が小さいグループを表面劣化の影響を受けたと思われる部分として **Degradation 0** , **Degradation 1** と名付けた。ヒノキ現生材の色分布に関しては`02_Control.ipynb`にまとめている。<br>
+The decision boundary by KMeans is plotted on graphs above.<br>
+The classification is made before and after red line above. Groups with smaller values of L_star[standardized] than the decision boundary were named **Degradation 0** , **Degradation 1** as areas that may have been affected by degradation from surface.<br>
+For the color distribution of non-degraded Hinoki, I summarized it in `02_Control.ipynb`. <br>
 
 ### KMeans により分けられた領域の可視化 <br> Visualization of regions divided by KMeans
 <img src='Image/L_star_binary.png' width='800'> <br>
