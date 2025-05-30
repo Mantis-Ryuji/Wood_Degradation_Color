@@ -9,6 +9,7 @@ Existing research on the deterioration of wood over time can be divided into two
 そのため、本研究では、古材の表面から内部にかけての色変化を面的に分析し、劣化による変化を定量的に把握しました。 <br>
 Although there is a body of work on each, few studies have been done to **grasp** these two consecutively.<br>
 Therefore, in this study, I conducted a 2D analysis of the color changes from the surface to the interior of aged wood in order to quantitatively assess the changes caused by deterioration.<br>
+<br>
 木材は長期間の使用に伴い、その色をはじめとするさまざまな特性が変化します。<br>
 この色変化の測定は、木材の劣化を定量的に評価するための有効な手段となる可能性があります。<br>
 さらに、他の特性との関係を調べることで、木材の劣化を非破壊的に測定するための指標として活用できる可能性があります。<br>
@@ -30,8 +31,9 @@ Each direction is numbered 1 ~ 4.<br><br>
 <img src='Image\Zuiganji2.png' width='600'><br>
 文分化財建造物保存技術協会編著（2018）国宝瑞巌寺本堂ほか7棟保存修理工事報告書<br><br>
 ここで取り扱った試料は柱材の根元の部分で、**赤丸**の位置で用いられていました。<br>
+測色に用いる試験体として以下の図のように、L方向に約50mm、T方向に2mm、R方向に髄まで切削し、**まさ目板の試験体**を作成しました。<br>
 The sample handled here was used at the base of the column wood, at the position indicated by the **red circle**.<br>
-測色に用いる試験体として以下の図のように、L方向に約50mm、T方向に2mm、R方向に髄まで切削し、**まさ目板の試験体**を作成しました。<br><br>
+As a test specimen for colorimetry, a **Straight grain specimen** was created by cutting approximately 50 mm in the L direction, 2 mm in the T direction, and up to the marrow in the R direction, as shown in the following figure.<br>
 <img src='Image\Material.png' width='600'>
 
 ## 測色 <br> Color Measurement
