@@ -119,43 +119,6 @@ For the color distribution of non-degraded Hinoki, I summarized it in `02_Contro
 これにより表面劣化の影響を受けた距離を定量化することができた。<br>
 This allowed me to quantify the distance affected by degradation from surface. <br>
 
-### Appendix
-Visualization of the Lab values of the divided regions by the previous analysis methods
-#### Regions
-`navy`: **Degradation 0**, `skyblue`: **Degradation 1**, `white`: **Others**
-<br>
-<img src='Image/L_star_degradated.png' width='600'>
-
-#### Boxplot L_star
-**Direction 1** (See `About Materials`) <br>
-<img src='Image/L_star_boxplot0.png' width='600'> <br>
-**Direction 2** <br>
-<img src='Image/L_star_boxplot1.png' width='600'> <br>
-**Direction 3** <br>
-<img src='Image/L_star_boxplot2.png' width='600'> <br>
-**Direction 4** <br>
-<img src='Image/L_star_boxplot3.png' width='600'>
-
-#### Boxplot a_star
-**Direction 1** (See `About Materials`) <br>
-<img src='Image/a_star_boxplot0.png' width='600'> <br>
-**Direction 2** <br>
-<img src='Image/a_star_boxplot1.png' width='600'> <br>
-**Direction 3** <br>
-<img src='Image/a_star_boxplot2.png' width='600'> <br>
-**Direction 4** <br>
-<img src='Image/a_star_boxplot3.png' width='600'>
-
-#### Boxplot b_star
-**Direction 1** (See `About Materials`) <br>
-<img src='Image/b_star_boxplot0.png' width='600'> <br>
-**Direction 2** <br>
-<img src='Image/b_star_boxplot1.png' width='600'> <br>
-**Direction 3** <br>
-<img src='Image/b_star_boxplot2.png' width='600'> <br>
-**Direction 4** <br>
-<img src='Image/b_star_boxplot3.png' width='600'>
-
 ## まとめ <br> Summary
 この分析方法により、表面劣化の影響を受けたと考えられる領域を検出し、表面劣化の影響を受けた距離を定量化することができた。
 またこれにより、ヒノキ（おそらく心材部分）は表面劣化の影響によって L_star と b_star が減少することが分かった。なお、a_star に関しては減少した領域と増加した領域が見られた。
@@ -169,6 +132,42 @@ Similarly, the graying layer (details for `01_Results.ipynb`) is thought to refl
 - 色変化が他の特性、力学的特性などと、どのように対応するかが不明。（曲げヤング率とブリネル硬さは表面と内部でほぼ変化しない。強度に関してはまだわからないが、さすがに変化していると思う。）<br> It is unclear how the color change corresponds to other properties, mechanical properties, etc. (Young's modulus in bending and Brinell hardness are virtually unchanged between the surface and the interior. As for strength, it's still unknown, but I hope it has indeed changed..)
 - 色変化は抽出成分による影響も大きく、リグニン、セルロース、ヘミセルロースの変化が直接反映されるわけではないので、色変化の原因を特定することが難しい。<br> Since the color change is largely influenced by extracted components and does not directly reflect changes in lignin, cellulose, or hemicellulose, it is difficult to identify the cause of the color change.
 
+## Appendix
+Visualization of the Lab values of the divided regions by the previous analysis methods
+### Regions
+`navy`: **Degradation 0**, `skyblue`: **Degradation 1**, `white`: **Others**
+<br>
+<img src='Image/L_star_degradated.png' width='600'>
+
+### Boxplot L_star
+**Direction 1** (See `About Materials`) <br>
+<img src='Image/L_star_boxplot0.png' width='600'> <br>
+**Direction 2** <br>
+<img src='Image/L_star_boxplot1.png' width='600'> <br>
+**Direction 3** <br>
+<img src='Image/L_star_boxplot2.png' width='600'> <br>
+**Direction 4** <br>
+<img src='Image/L_star_boxplot3.png' width='600'>
+
+### Boxplot a_star
+**Direction 1** (See `About Materials`) <br>
+<img src='Image/a_star_boxplot0.png' width='600'> <br>
+**Direction 2** <br>
+<img src='Image/a_star_boxplot1.png' width='600'> <br>
+**Direction 3** <br>
+<img src='Image/a_star_boxplot2.png' width='600'> <br>
+**Direction 4** <br>
+<img src='Image/a_star_boxplot3.png' width='600'>
+
+### Boxplot b_star
+**Direction 1** (See `About Materials`) <br>
+<img src='Image/b_star_boxplot0.png' width='600'> <br>
+**Direction 2** <br>
+<img src='Image/b_star_boxplot1.png' width='600'> <br>
+**Direction 3** <br>
+<img src='Image/b_star_boxplot2.png' width='600'> <br>
+**Direction 4** <br>
+<img src='Image/b_star_boxplot3.png' width='600'>
 
 ## License
 This project is licensed under the MIT License.  
