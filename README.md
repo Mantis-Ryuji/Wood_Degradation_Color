@@ -33,7 +33,7 @@ Each direction is numbered 1 ~ 4.<br><br>
 ここで取り扱った試料は柱材の根元の部分で、**赤丸**の位置で用いられていました。<br>
 測色に用いる試験体として以下の図のように、L方向に約50mm、T方向に2mm、R方向に髄まで切削し、**まさ目板の試験体**を作成しました。<br>
 The sample handled here was used at the base of the column wood, at the position indicated by the **red circle**.<br>
-As a test specimen for colorimetry, a **Straight grain specimen** was created by cutting approximately 50 mm in the L direction, 2 mm in the T direction, and up to the marrow in the R direction, as shown in the following figure.<br>
+As a test specimen for colorimetry, a **Straight grain specimen** was created by cutting approximately 50 mm in the L direction, 2 mm in the T direction, and up to the marrow in the R direction, as shown in the following figure.<br><br>
 <img src='Image\Material.png' width='600'>
 
 ## 測色 <br> Color Measurement
@@ -140,37 +140,37 @@ Similarly, the graying layer (details for `01_Results.ipynb`) is thought to refl
 Visualization of the Lab values of the divided regions by the previous analysis methods
 ### Regions
 `navy`: **Degradation 0**, `skyblue`: **Degradation 1**, `white`: **Others**
-<br>
+<br><br>
 <img src='Image/L_star_degradated.png' width='600'>
 
 ### Boxplot L_star
-**Direction 1** (See `About Materials` for Direction number) <br>
+**Direction 1** (See `About Materials` for Direction number) <br><br>
 <img src='Image/L_star_boxplot0.png' width='600'> <br>
-**Direction 2** <br>
+**Direction 2** <br><br>
 <img src='Image/L_star_boxplot1.png' width='600'> <br>
-**Direction 3** <br>
+**Direction 3** <br><br>
 <img src='Image/L_star_boxplot2.png' width='600'> <br>
-**Direction 4** <br>
+**Direction 4** <br><br>
 <img src='Image/L_star_boxplot3.png' width='600'>
 
 ### Boxplot a_star
-**Direction 1** <br>
+**Direction 1** <br><br>
 <img src='Image/a_star_boxplot0.png' width='600'> <br>
-**Direction 2** <br>
+**Direction 2** <br><br>
 <img src='Image/a_star_boxplot1.png' width='600'> <br>
-**Direction 3** <br>
+**Direction 3** <br><br>
 <img src='Image/a_star_boxplot2.png' width='600'> <br>
-**Direction 4** <br>
+**Direction 4** <br><br>
 <img src='Image/a_star_boxplot3.png' width='600'>
 
 ### Boxplot b_star
-**Direction 1**  <br>
+**Direction 1**  <br><br>
 <img src='Image/b_star_boxplot0.png' width='600'> <br>
-**Direction 2** <br>
+**Direction 2** <br><br>
 <img src='Image/b_star_boxplot1.png' width='600'> <br>
-**Direction 3** <br>
+**Direction 3** <br><br>
 <img src='Image/b_star_boxplot2.png' width='600'> <br>
-**Direction 4** <br>
+**Direction 4** <br><br>
 <img src='Image/b_star_boxplot3.png' width='600'>
 
 ## License
