@@ -103,11 +103,8 @@ In particular, **Class 0** seems to be strongly affected.
 
 <img src='Image/L_star_density_separate.png' width='800'><br><br>
 
-- $L_{star}[standardized]$ の一部のクラス（ **Class 0** と **Class 1** ）に複数のピークが見られる。すなわち、ヒノキ本来の色のばらつきから離れた集団が存在すると考え、KMeansを用いてクラスタリングした。 <br>
-
-Multiple peaks were observed in some classes of $L_{star}[standardized]$ (**Class 0** and **Class 1**).<br>
-This suggests the existence of subgroups that deviate from the original color variation of Hinoki.<br>
-Therefore, clustering was performed using KMeans.<br>
+- $L_{star}[standardized]$ の一部のクラス（ **Class 0** と **Class 1** ）に複数のピークが見られる。すなわち、ヒノキ本来の色のばらつきから離れた集団が存在すると考え、KMeansを用いてクラスタリングした。
+  Multiple peaks were observed in some classes of $L_{star}[standardized]$ (**Class 0** and **Class 1**). This suggests the existence of subgroups that deviate from the original color variation of Hinoki. Therefore, clustering was performed using KMeans.<br>
 
 <img src='Image/L_star_density_KMeans.png' width='600'><br>
 
